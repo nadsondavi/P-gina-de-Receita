@@ -1,7 +1,12 @@
+:root {  /*Elemento raiz*/
+    line-height: 150%;
+}
+
 body {
     background-color: black;
     background-image: url(assets/bg-image.png);
     background-size: cover; /*cover cobre toda área visível*/
+    font-family: "Alice", serif;
 }
 
 #page {
@@ -16,4 +21,21 @@ body {
 
 img {
     border-radius: 16px;
+}
+
+h1 {
+    line-height: 140%;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1, h2 {
+    color: #291B1A;
+}
+
+p {
+    color: #573A37;
 }
